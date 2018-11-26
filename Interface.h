@@ -1,6 +1,6 @@
 //Date:21/11/2018
 //Contain the interface of student menagement system 
-#include "Bibliotecas.h"
+#include "bibliotecas.h"
 
 char interface(void)
 {
