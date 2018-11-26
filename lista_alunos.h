@@ -1,15 +1,12 @@
 //Data: 26/11/18
 //Definição da lista e prototipação de funções
-
 #include <no.h>
 #include <bibliotecas.h>
 
-struct alunos_st
+typedef struct ls_alunos_st
 {
 	no* cabeca;
-};
-
-typedef struct alunos_st alunos;
+} ls_alunos;
 
 //Prototipação
 alunos* cria_lista_alunos();
