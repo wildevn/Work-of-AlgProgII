@@ -7,14 +7,14 @@ char interface(void)
     char option;
 
     printf("Bem-vindo ao sistema de gerenciamento de aluno ALPHA!\n");
-    printf("\n\n\n");
-    printf("Qual das seguintes opcoes voce deseja realizar ?\n");
-    printf("\nCadastrar novo aluno.(Pressione C)");
-    printf("\nBuscar Aluno.(Pressione B)");
-    printf("\nLer arquivo com listagem de alunos.(Pressione L)");
-    printf("\nGerar arquivo com dados dos alunos aprovados.(Pressione A)");
-    printf("\nGerar arquivo com dados dos alunos reprovados(Pressione R)");
-    printf("\nFechar programa.(Pressione F)\n");
+    printf("\n\n");
+    printf("Qual das seguintes opcoes voce deseja realizar ?\n\n");
+    printf("Cadastrar novo aluno.(Pressione C)\n");
+    printf("Buscar Aluno.(Pressione B)\n");
+    printf("Ler arquivo com listagem de alunos.(Pressione L)\n");
+    printf("Gerar arquivo com dados dos alunos aprovados.(Pressione A)\n");
+    printf("Gerar arquivo com dados dos alunos reprovados(Pressione R)\n");
+    printf("Fechar programa.(Pressione F)\n");
     option=getchar();
     
     return option;
