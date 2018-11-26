@@ -1,15 +1,12 @@
 //Data: 26/11/18
 //Estrutura de cada aluno
+#define SIZE 50
 
-#define SIZE 20
-
-struct aluno_st
+ typedef struct aluno_st
 {
 	char Nome[SIZE];
 	int RA;
 	float P1, P2;
 	float Trab;
 	float PO;
-};
-
-typedef struct aluno_st aluno;
+} aluno;
